@@ -7,18 +7,22 @@ This project showcases a robust data warehousing and analytics solution tailored
 This project builds a modern data warehouse to consolidate and analyze financial transaction datasets, enabling the detection of fraudulent activities and generating actionable insights. By leveraging advanced data engineering techniques and SQL-based analytics, the project aims to uncover patterns of fraud, assess transaction behaviors, and provide stakeholders with critical financial metrics.
 
 ###Project Requirements
+
 Building a modern Data Warehouse (Data Engineering).
 
 ####Objectives
+
 Develop a scalable data warehouse using SQL Server to integrate financial transaction data, enabling efficient fraud detection and analytical reporting.
 
 ####Specifications
+
 **Data Sources**: Import data from five datasets provided as CSV files:
-cards_data: Credit/debit card details.
-mcc_codes: Merchant Category Codes for transaction categorization.
-train_fraud_labels: Labeled dataset indicating fraudulent transactions.
-transactions_data: Detailed transaction records.
-users_data: User profile information.
+
+**cards_data**: Credit/debit card details.
+**mcc_codes**: Merchant Category Codes for transaction categorization.
+**train_fraud_labels**: Labeled dataset indicating fraudulent transactions.
+**transactions_data**: Detailed transaction records.
+**users_data**: User profile information.
 
 **Data Quality**: Perform data cleansing to address inconsistencies, missing values, and duplicates to ensure reliable analysis.
 **Integration**: Combine all datasets into a cohesive, user-friendly data model optimized for fraud detection and analytical queries.
@@ -28,14 +32,14 @@ users_data: User profile information.
 
 ##BI: Analytics & Reporting (Data Analytics)
 
-Objective
+###Objectives
 
 Develop SQL-based analytics to deliver insights into:
 **Fraud Detection**: Identify patterns and anomalies indicative of fraudulent transactions.
 **Transaction Behavior**: Analyze user spending patterns and merchant interactions.
 **Financial Trends**: Track key financial metrics to inform business strategies.
 
-These insights enable stakeholders to proactively mitigate fraud risks and make informed financial decisions.
+**These insights enable stakeholders to proactively mitigate fraud risks and make informed financial decisions.**
 
 ###Key Metrics
 Fraud detection rates and false positives.
