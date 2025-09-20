@@ -54,7 +54,9 @@ Python (for data preprocessing, if applicable)
 SQL client (e.g., SSMS, DBeaver) for querying
 CSV file handling tools (e.g., Pandas, Excel)
 
-InstallationClone this repository:bash
+Installation
+
+Clone this repository:bash
 
 git clone https://github.com/your-username/financial-fraud-detection.git
 
@@ -64,13 +66,14 @@ Execute the analytics queries in the analytics/ directory to generate insights.
 
 Directory Structure
 
-financial-fraud-detection/
-├── data/                    # CSV datasets
-├── scripts/                 # SQL scripts for data warehouse creation
-├── analytics/               # SQL queries for fraud detection and reporting
-├── docs/                    # Data model documentation
-├── README.md                # Project overview
-└── LICENSE                  # License file
+**financial-fraud-detection**
+
+data/                    # CSV datasets
+scripts/                 # SQL scripts for data warehouse creation
+analytics/               # SQL queries for fraud detection and reporting
+docs/                    # Data model documentation
+README.md                # Project overview
+LICENSE                  # License file
 
 ####Usage
 **Data Warehouse Setup**:
